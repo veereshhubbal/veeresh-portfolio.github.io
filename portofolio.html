@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veeresh</title>
+</head>
+<link rel="stylesheet" href="veere.css">
+<link rel="stylesheet" href="veeerer.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <div class="header">
+        <h1>&Scaron; PERSONAL WEBSITE</h1>
+    </div>
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()" style="float:right;">
+    Date and Time.</button>
+   <p id="demo"></p><br>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Info</a></li>
+      </ul>
+      <div id="home">
+      <p style="text-align: center;">Hey I am Veeresh.N.Hubballi</p>
+      <img src="IMGVEERESH.jpg" alt="VEERESH"  width="300" height="300">
+      <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+       style="background-color:#fbf7f7;width:120px;height:20px;padding:40px;text-align:center;">
+       I am Programmer</div>
+       <script>
+        function mOver(obj) {
+          obj.innerHTML = "I am PROGRAMMER"
+        }
+        
+        function mOut(obj) {
+          obj.innerHTML = "I am DEVELOPER"
+        }
+        </script>  
+        </div> 
+        <div id="about">
+       <h2>Education:</h2>
+       <p>SCHOOL:Bala Vinyaka Vidyaniketan Gadag</p>
+       <p>PU COLLEGE:Sanmarg pu college Gadag</p>
+       <p>Engineering:KLS GIT</p><br>
+       <h2>BRANCH:CSE</h2><br>
+       <h2>SKILLS:</h2>
+       <p>Programming C++,C,java</p>
+       <p>Web Devlopment</p>
+       <p>Good in Mathametics</p><br>
+       <h2>Goals</h2>
+       <p>To get placed in good company </p><br>
+       <h2>Habits:</h2>
+       <p>Watching Cricket</p>
+       <p>Watching MOvie</p><br>
+     <div>
+        <h2>MY CITY :</h2>
+        Gadag:On 24th August, 1997, ‘Gadag’ emerged as a new district. In the fields of art, litreture, culture, spiritual and industry, Gadag has its own heritage since long back. It is also a tourist place with greenary and being visited by many nature-lovers. In the north border flows Malaprabha and in Southern border Tungabhadra. Other than these Bennehall joins Malaprabha near Ron. Throughout the district, black soil is prominent but red soil with sand is also there in some parts. It has moderate temprature weather is pleasant and healthy. The maximum temperature is upto 42 degree centigrade in the month of April and May and minimum degree of 16 centigrade in some months.
+
+        Gadag is a city in Karnataka state in India. It is the administrative headquarters of Gadag District. Gadag and its sister city Betageri have a combined city administration. Gadag immediately brings to mind the name of Narayanappa, popularly known as Kumaravyasa, the author of Karnata Bharata Kathamanjari. It is the classic Mahabharata in Kannada. Narayanappa was born in the nearby village of Koliwada. He composed his work sitting before Lord Veera Narayana, his chosen deity. The temples of Veera Narayana and Trikuteshwara are places of religious and historic importance. The blind singer Pand.Ganayogi Panchakshari Gawayi belonged to Gadag. His music school (Veereshwara Punyashrama) is famous. The Tontadarya Matha of the Veerashaiva sect of Hinduism is engaged in many educational and literary activities in and around Gadag.
+        
+        There is a legend about Gadag that if you throw a stone in town it would either land at a printing press or on a handloom. Gadag has a lot of printing presses including the Hombali Brothers and the Shabadi Math Printing Press. Betageri, which is an adjacent town to Gadag, is famous for handlooms. Gadag has been a important seat of Hindustani music in north Karnataka, and is home to the Hindustani singer Bharata Ratna awardee Pandit Bhimsen Joshi.The modern Kannada literature and a freedom fighter Shri.Huilgol Narayan Rao, Pandit Puttaraj Gawai One of Gem from Hindustani classical tradition and our well known cricketer Sunil Joshi.
+
+      </div>
+      <h2>FATHER:NAGAPPA.A.HUBBALLI</h2>
+      <h2>MOTHER:RENUKA.A.HUBBALLI</h2>
+      <h2>BROTHER:MANJUNATH.N.HUBBALLI</h2>
+    </div><br>
+    <div id="contact">
+       <h2>You can share information to contact me:</h2>
+       <form action="mailto:veereshhubballi496@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>INFO:</legend>
+            Name:<input type="text" name="fname" required><br><br>
+            Email:<input type="email" name="ename" required><br><br>
+            Contact:<input type="number" name="phone" placeholder="961165XXXX" size="10" required><br><br>
+            <label for="favb0">BRANCH</label>
+            <select name="favb0" id="favb0">
+              <option value="ms">CSE</option>
+                <option value="siraj">ISE</option>
+                <option value="chahal">EC</option>
+            </select><br><br>
+            <textarea name="message" rows="10" cols="50" >Share something about you and tell me about my website.</textarea>
+             <br><br>
+            <input type="submit" value="send">
+        </fieldset>
+       </form>
+    </div>
+    <div class="footer">
+    <ul>
+      <li><a href="https://www.instagram.com/veereshhubballi98/" class="fa fa-linkedin"></a></li>
+      <li><a href="https://www.instagram.com/veereshhubballi98/" class="fa fa-instagram"></a></li>
+    </ul>
+      </div>
+        
+</body>
+</html>
